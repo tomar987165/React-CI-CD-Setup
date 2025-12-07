@@ -18,3 +18,6 @@ jobs:
 
             - name: 'Check node version'
               run: node --version
+
+            - name: 'echo task completed'
+              run: echo "Task been completed."
